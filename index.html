@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <div class="nav_wrap">
+            <p class="logo">CM<span>4</span></p>
+        
+            <div class="nav_bar">
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="academicplanner.html">Academic Planner</a></li>
+                <li><a class="contact" href="">Contact</a></li>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                <rect y="4"  width="24" height="2" fill="currentColor"/>
+                <rect y="11" width="24" height="2" fill="currentColor"/>
+                <rect y="18" width="24" height="2" fill="currentColor"/>
+                </svg>
+        </div>
+
+        <div class="profile_img_holder"><img src="academicproj-images/face_pic_132647934_iOS.jpg" alt="an image" class="profile_img"></div>
+        <div class="greeting">welcome to &nbsp;<h1> Collins Mbah </h1>&nbsp; Profile page</div>
+    </header>
+
+    <section class="body_section">
+        <h2 id="about">About Me</h2>
+        <div class="biography">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Collins, and I'm a Computer Science student at Miva Open University. My knowledge and skills go beyond my current class year, as I've been learning and building projects for about two years before getting into school. I'm also expanding my knowledge in the AI field to grow with the times. I reside in Lagos, Nigeria, and I'm open to business opportunities related to my field. I also have a skill in video editing, and since we live in a visual world, I've turned my interest in visual editing into a side skill.</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Educational Background</th>
+                <td><span>Firm choice nur/pri school,</span> <span>Light bearers Secondary School,</span> <span>Stokhan Secondary School,</span> <span>Miva Open University</span></td>
+            </tr>
+            <tr>
+                <th>Career Aspiration</th>
+                <td>ccc</td>
+            </tr>
+            <tr>
+                <th>Technical Skill</th>
+                <td><span>CSS Developer,</span> <span>JS developer,</span> <span>Python,</span> <span>video editor (Davinci Resolve)</span></td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td><span>Football,</span> <span>Fantasy Books,</span> <span>Video Edits,</span> <span>PS5,</span> <span>Philosophy,</span> <span>Anime,</span> <span>Tvshows/ Movies,</span> <span>Red Rising Book!!</span></td>
+            </tr>
+        </table>
+
+        <h2 id="projects">Projects</h2>
+        <div class="projects_wrapper">
+            <div class="proj_card">
+                <img src="academicproj-images/academic-planner-js-logic.png" alt="an image" class="proj_img">
+                <p>Java Script logic for an academic planner project capable of adding, task, deleting, while changing the status and updating the display logic every simgle time. Contains other logic like button logic, etc. <br><a href="">check it out</a></p>
+            </div>
+            <div class="proj_card">
+                <img src="academicproj-images/setting-library-code.png" alt="an image" class="proj_img">
+                <p>Python logic for updating settings. checks if new setting is already present, checks if the name matches, checks for valid data type, handles data type conversion, etc. <br><a href="">check it out</a></p>
+            </div>
+            <div class="proj_card">
+                <img src="academicproj-images/character-stats-code.png" alt="an image" class="proj_img">
+                <p>python logic for a character creating project. distribute stats across various character attribute, making sure the total number doesnt surpass the fixed stat number, handling data manipulation, looping, interpolation, etc. <br><a href="">check it out</a></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="form_backdrop"></div>
+    <form action="" class="form">
+        <div class="row">
+            <label for="f_name">First Name</label>
+            <input type="text" id="f_name" name="f_name" class="form_input">
+        </div>
+        <div class="row">
+            <label for="l_name">Last Name</label>
+            <input type="text" id="l_name" name="l_name" class="form_input">
+        </div>
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form_input">
+        </div>
+        <div class="row">
+            <label for="phone">Phone No</label>
+            <input type="tel" id="phone" pattern="^\+\(\d{1,4}\)\s\d{3}-\d{3}-\d{4}$" placeholder="+(123) 901-231-2345" class="form_input">
+        </div>
+        <div class="row">
+            <label for="reason">Note</label>
+            <textarea name="reason" id="reason" placeholder="i'm reaching out to...." rows="8" cols="50"></textarea class="form_input">
+        </div>
+        <input type="submit" class="submit">
+    </form>
+    
+
+
+    <script src="formvalidation.js"></script>
+</body>
+</html>

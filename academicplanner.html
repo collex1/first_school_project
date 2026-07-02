@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner</title>
+    <link rel="stylesheet" href="academicplanner.css">
+</head>
+<body>
+    <div class="header_div">
+    <button class="hamburger" id="hamburger">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <rect y="4"  width="24" height="2" fill="currentColor"/>
+      <rect y="11" width="24" height="2" fill="currentColor"/>
+      <rect y="18" width="24" height="2" fill="currentColor"/>
+    </svg>
+  </button>
+        <div class="nav_bar" id="nav_bar">
+            <li class="link_list"><a href="index.html">Home</a></li>
+            <li class="link_list"><a href="index.html#about">About</a></li>
+            <li class="link_list"><a href="index.html#projects">Projects</a></li>
+            <li class="link_list"><a href="academicplanner.html">Academic Planner</a></li>
+            <li class="link_list"><a href="index.html">Contact</a></li>
+        </div>
+        <div class="img_container">
+            <img src="academicproj-images/Dark Green Study Space Ideas That Feel Calm, Cozy & Motivating ✨📚.jpg" alt="an image">
+        </div>
+        <h1>Academic Planner</h1>
+        <p class="motto">A Journey of a Million Mile Begins With a Step</p>
+        <button id="add_task" type="button">Add Task</button>
+    </div>
+
+    <h2 class="header_task_list">Task List</h2>
+    <div id="task_list"></div>
+    <h2 class="completed_task_list_heading">Completed Task</h2>
+    <div class="completed_task_wrapper">
+        <img class='completed_wrapper_img' src="academicproj-images/academin-pinterest-picture-jun26-26-3.36.jpg" alt="an image">
+        <div class="completed_task"></div>
+    </div>
+    <h2 class="ongoing_task_header">Ongoing Task</h2>
+    <div class="ongoing_task"></div>
+    <form action="" class='form' class="inactive_form">
+        <label for="task_name">Task Name</label>
+        <input type="text" id="task_name" name="task name">
+        <label for="task_describe">Task Description</label>
+        <textarea name="describe" id="task_describe" rows="5" cols="30"></textarea>
+        <input type='submit' class="submit">
+    </form>
+
+
+
+
+
+    <script src="academicplanner.JS"></script>
+</body>
+</html>
