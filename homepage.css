@@ -115,6 +115,7 @@ table{
     width: 100%;
     margin: auto;
     border-radius: 1.5rem;
+    overflow: hidden;
 }
 td>span{
     display: inline-block;
@@ -158,6 +159,7 @@ td,th{
     max-height: 500px;
     height: 100%;
     font-size: var(--nav-font);
+    padding: 1em;
 
     position: absolute;
     top: 67px;
@@ -193,7 +195,6 @@ td,th{
     margin:auto;
 }
 section{
-    min-width: 450px;
     padding:1.5em;
 }
 
