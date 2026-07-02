@@ -47,6 +47,15 @@ h2{
     padding: 0.5em;
     background-color: var(--dark-green);
 }
+.nav_bar>li{
+    border-radius: 1em;
+}
+a{
+    font-weight: 900;
+    padding: 0.4em;
+    display: inline-block;
+    width: 100%;
+}
 
 .nav_bar>li:hover{
     box-shadow: 1px 1px 5px 2px rgb(205, 204, 204);
