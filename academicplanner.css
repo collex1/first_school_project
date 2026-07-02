@@ -113,8 +113,9 @@ h1{
 #task_list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap:1vw;
+    gap:1em;
     font-size: var(--text-font);
+    padding: 1.3em;
 }
 
 .task_image{
@@ -175,6 +176,9 @@ h1{
     display: flex;
     flex-flow: row;
     gap: 2em;
+    box-shadow: inset 1px 1px 3px 2px var(--dark-grey);
+    margin: 1rem;
+    border-radius: 2.5rem;
 }
 .completed_wrapper_img{
     width: clamp(300px, 30%, 30vw);
@@ -187,7 +191,8 @@ h1{
     width: clamp(400px, 60%, 60vw);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap:1vw;
+    gap:1em;
+    padding: 1em;
 }
 
 .completed_task_img{
@@ -238,6 +243,10 @@ h1{
     flex-flow: row;
     flex-wrap: wrap;
     gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: inset 1px 1px 3px 2px var(--dark-grey);
+    border-radius: 2.5rem;
 }
 .ongoing_task_img{
     width: 100px;
