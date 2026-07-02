@@ -20,6 +20,7 @@
 }
 body{
     background-color: var(--dark-green);
+    max-width: 100%;
 }
 body.no_scroll{
     overflow: hidden;
@@ -69,7 +70,6 @@ a{
 header{
     display: flex;
     flex-flow: column;
-    min-width: 450px;
     position: relative;
     background-image: url('academicproj-images/download\ \(1\).jpg');
     background-size: cover;

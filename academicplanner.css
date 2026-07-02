@@ -34,6 +34,7 @@ h2{
     background-color: var(--dark-green);
     min-height: 380px;
     position:relative;
+    padding-top: 1px;
 }
 
 .nav_bar{
@@ -331,9 +332,7 @@ textarea{
 }
 
 @media (max-width: 700px) {
-    .header_div{
-        position: relative;
-    }
+    
     .img_container{
         margin-top: 1.5rem;
     }
